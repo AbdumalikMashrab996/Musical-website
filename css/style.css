@@ -1,0 +1,274 @@
+/* ===== Start global css ===== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ===== End global css ===== */
+
+/* ===== Start site header ===== */
+.site-header {
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    height: 39px;
+    background-color: #333;
+}
+
+.sitenav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.sitenav-item {
+    margin: 0 10px;
+}
+
+
+.sitenav-link {
+    padding: 20px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sitenav-link:hover {
+    background-color: #444;
+}
+/* ===== End site header ===== */
+
+/* ===== Start top section ===== */
+.site-main {
+    flex-grow: 1;
+   
+}
+
+.top-section {
+    background-image: url('../img/showcase.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-section-container {
+   text-align: center;
+   padding-top: 170px;
+   color: #fff;
+   height: 100vh;
+}
+
+.top-section-title {
+    font-size: 65px;
+    padding-bottom: 15px;
+}
+
+.top-section-annatation {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.top-section-comment {
+    font-size: 20px;
+    line-height: 35px;
+}
+/* ===== End top section ===== */
+
+/* ===== Start music section ===== */
+.background {
+    background-color: #252529;
+}
+
+.music-section-container {
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.music-section-title {
+    font-size: 40px;
+}
+
+.music-section-suptitle {
+    font-size: 38px;
+}
+
+.music-section-comment {
+    font-size: 22px;
+    line-height: 33px;
+    padding-bottom: 16px;
+}
+
+.music-section-button {
+    padding: 20px 12px;
+    background-color: #D3071B;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 22px;
+}
+
+.music-section-button:hover {
+    opacity: 0.6;
+}
+
+.music-section-text {
+    margin-top: 50px;
+}
+/* ===== End music section ===== */
+
+/* ===== Start music section ===== */
+.tv-section {
+    padding-top: 50px;
+    text-align: center;
+    color: #333333;
+}
+
+.tv-section-title {
+    font-size: 30px;
+}
+
+.tv-section-comment {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.tv-section-button {
+    padding: 20px 12px;
+    background-color: #143F85;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tv-section-button:hover {
+    opacity: 0.9;
+}
+
+.tv-section-img {
+    margin-top: 33px;
+}
+/* ===== End tv section ===== */
+
+/* ===== Start entertaiment section ===== */
+.background-image {
+    height: 590px;
+    background-image: url('../img/section-bg.jpeg');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.entertaiment-section {
+    text-align: center;
+    color: #fff;
+    padding-top: 13%;
+}
+
+.entertaiment-title {
+    font-size: 33px;
+}
+
+.entertaiment-comment {
+    font-size: 20px;
+}
+/* ===== End entertaiment section ===== */
+
+/* ===== Start cards section ===== */
+.cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.card-comment-section {
+    margin-left: 15px;
+    max-width: 550px;
+    width: 100%;
+    color: #333;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-text {
+    line-height: 27px;
+}
+
+.card-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* ===== End cards section ===== */
+/* ===== End main section ===== */
+
+/* ===== Start site footer ===== */
+.footer-background {
+    background-color: #222;
+    color: #fff;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.site-footer-list {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-footer-item {
+    line-height: 22px;
+}
+
+.site-footer-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.site-footer-item a:hover {
+    color: #777;
+}
+
+.site-footer-title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #444;
+    font-weight: 400;
+}
+
+.end-site-footer {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+/* ===== End site footer ===== */
